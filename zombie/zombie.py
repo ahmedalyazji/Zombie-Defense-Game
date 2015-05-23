@@ -3,7 +3,10 @@
 ###   PyGame with a SnowPea shoot bullet for defensing the zombie army coming            ###
 ###                                                                                      ###
 ###   Author: Junjie Shi                                                                 ###
-###   Email : handsomestone@gmail.com                                                    ### 
+###   Email : handsomestone@gmail.com                                                    ###
+###                                                                                      ###
+###   Edited By: Ahmed AlYazji                                                           ###
+###   Email    : ahmed_alyazji@hotmail.com                                               ###
 ###                                                                                      ### 
 ###   Do Enjoy the game!                                                                 ###
 ###   You need to have Python and PyGame installed to run it.                            ###
@@ -28,20 +31,20 @@ import pygame, random, sys, time
 from pygame.locals import *
 
 #set up some variables
-WINDOWWIDTH = 1024
-WINDOWHEIGHT = 600
+WINDOWWIDTH = 1280
+WINDOWHEIGHT = 720
 FPS = 60
 
 MAXGOTTENPASS = 10
-ZOMBIESIZE = 70 #includes newKindZombies
-ADDNEWZOMBIERATE = 30
+ZOMBIESIZE = 50 #includes newKindZombies
+ADDNEWZOMBIERATE = 50
 ADDNEWKINDZOMBIE = ADDNEWZOMBIERATE
 
-NORMALZOMBIESPEED = 2
-NEWKINDZOMBIESPEED = NORMALZOMBIESPEED / 2
+NORMALZOMBIESPEED = 4
+NEWKINDZOMBIESPEED = NORMALZOMBIESPEED / 4
 
-PLAYERMOVERATE = 15
-BULLETSPEED = 10
+PLAYERMOVERATE = 20
+BULLETSPEED = 20
 ADDNEWBULLETRATE = 15
 
 TEXTCOLOR = (255, 255, 255)
